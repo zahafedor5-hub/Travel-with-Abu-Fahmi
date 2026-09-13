@@ -3,15 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Заголовок и метатеги для превью ссылки (WhatsApp, Telegram, Facebook) -->
-    <title>HolidayMe Azerbaijan — Private Tours & Transfers</title>
-    <meta property="og:title" content="HolidayMe Azerbaijan — Private Tours & Transfers">
-    <meta property="og:description" content="Book your private tours, airport transfers, and excursions in Azerbaijan with Abu-Fahmi.">
-    <!-- Укажите прямую ссылку на ваш логотип (назовите его logo.png и положите рядом с index.html) -->
-    <meta property="og:image" content="logo.png">
-    <meta property="og:type" content="website">
-
+    <title>Travel with Abu-Fahmi — Private Tours</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, sans-serif; }
@@ -21,20 +13,10 @@
             background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
             color: white; 
             text-align: center; 
-            padding: 20px 20px 40px 20px; 
+            padding: 20px 20px 60px 20px; 
             position: relative;
         }
-
-        /* Логотип в шапке */
-        .header-logo {
-            max-width: 220px;
-            height: auto;
-            margin-bottom: 12px;
-            background: white;
-            padding: 10px 18px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
+        header h1 { font-size: 2.2rem; margin-bottom: 5px; }
 
         /* Языковой переключатель */
         .lang-switch {
@@ -60,7 +42,7 @@
             border-color: #38bdf8;
         }
         
-        .container { max-width: 650px; margin: -30px auto 50px auto; padding: 0 20px; }
+        .container { max-width: 650px; margin: -40px auto 50px auto; padding: 0 20px; }
         .card { background: white; border-radius: 16px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
 
         .section-title { font-size: 1.2rem; margin-bottom: 15px; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-top: 20px; }
@@ -137,9 +119,7 @@
             <button class="lang-btn" onclick="setLanguage('en', event)">EN</button>
             <button class="lang-btn" onclick="setLanguage('ar', event)">العربية</button>
         </div>
-        
-        <!-- Логотип компании -->
-        <img src="logo.png" alt="HolidayMe Azerbaijan" class="header-logo">
+        <h1>Travel with Abu-Fahmi</h1>
         <p id="header-subtitle">Забронируйте частные туры и трансферы по Азербайджану</p>
     </header>
 
@@ -396,4 +376,25 @@
                 tours: "اختر الجولات",
                 baku: "جولة مدينة باكو",
                 gobustan: "جوبوستان والبراكين الطينية",
-         
+                gabala: "جولة غابالا الطبيعية",
+                shahdag: "جولة جبل شاهداغ",
+                guba: "جولة قوبا",
+                sheki: "جولة شكي",
+                perDay: "/ يوم",
+                promoPlaceholder: "رمز الترويج",
+                apply: "تطبيق",
+                total: "السعر الإجمالي:",
+                discountMsg: "تم تطبيق رمز الترويج!",
+                client: "تفاصيل العميل والتواريخ",
+                arrival: "تاريخ الوصول:",
+                departure: "تاريخ المغادرة:",
+                name: "الاسم الكامل:",
+                namePlaceholder: "مثال: أحمد محمد",
+                phone: "واتساب / رقم الهاتف:",
+                submit: "تأكيد الحجز",
+                usedPromo: "تم استخدام رمز الترويج هذا بالفعل!",
+                invalidPromo: "رمز ترويج غير صالحة!"
+            }
+        };
+
+        function setLangu
